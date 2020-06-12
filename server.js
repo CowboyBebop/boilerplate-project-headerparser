@@ -26,7 +26,7 @@ app.get("/api/hello", function (req, res) {
 
 app.get("/api/whoami", function (req, res) {
 
-  
+  //commit test
   res.json({greeting: 'hello API'});
 });
 
